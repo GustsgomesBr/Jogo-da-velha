@@ -50,4 +50,16 @@ main {
     padding: 20px;
     border: 2px solid black;
     margin-top: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 90px;
+    transition: 0.3s;
+}
+
+.quadrado:hover{
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.1);
 }
